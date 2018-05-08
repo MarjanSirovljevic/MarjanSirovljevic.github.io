@@ -1,84 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>bootstrapExample</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/bootstrapExample.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-</head>
-<body>
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand">Me</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-rigth">
-                    <li><a href="#">WHO</a></li>
-                    <li><a href="#">WHAT</a></li>
-                    <li><a href="#">WHERE</a></li>
-                </ul>
-            </div>
-        </div>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Resume - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    
-        <div class="container-fluid text-center bg-1">
-            <h3>Who Am I?</h3>
-            <img src="./img/bird150.jpg" class="img-circle main-img img-responsive " alt="Bird">
-            <h3>I'm an adventurer</h3>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Marjan
+            <span class="text-primary">Sirovljevic</span>
+          </h1>
+          <div class="subheading mb-5">Savnicka 43/30 · Belgrade, Serbia · (+381) 69 459 2105 ·
+            <a href="mailto:name@email.com">marjansirovljevic@gmail.com</a>
+          </div>
+          <p class="mb-5">
+            I am a beginner developer with extensive experience in the field of mechanical engineering,
+            and I am eager to fulfill my dreams and transfer my work ethics and experience to the field of web development.
+          </p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/feed/?trk=">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse" data-toggle="tooltip" title="LinkedIn"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/MarjanSirovljevic">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse" data-toggle="tooltip" title="Git Hub"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/MarjanSirovljevic/demo/blob/gh-pages/cv_marjan_sirovljevic.pdf">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse" data-toggle="tooltip" title="CV"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
         </div>
-        <div class="container-fluid bg-2 text-center">
-            <h3>What Am I?</h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <button class="btn btn-default btn-lg">
-                <span class="glyphicon glyphicon-search"></span>
-                Search
-            </button>
-        </div>
-        <div class="container-fluid bg-3 text-center">
-            <h3>Where to find me?</h3>
-            <div class="row">
-                <div class="col-sm-4">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                    <img class="img-3 img-responsive" src="./img/birds1.jpg" alt="Image">
-                </div>
-                <div class="col-sm-4">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                    <img class="img-3 img-responsive" src="./img/birds2.jpg" alt="Image">
-                </div>
-                <div class="col-sm-4">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                    <img class="img-3 imag-responsive" src="./img/birds3.jpg" alt="Image">
-                </div>
+      </section>
+<!-- ******************************************************************* -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Project Engineer</h3>
+              <div class="subheading mb-3">BG Reklam</div>
+              <p>Designing, process planing and quality control of various products for commertial presentation; mold – tool design ( CAD/CAM ) for vacuum termoforming processes.</p>
+              <p>Designed 300+ point of sale products for wide range of clients.</p>
             </div>
-        </div>      
-    
-    <footer class="container-fluid bg-4 text-center">
-        <p>Boostrap Theme Made By
-            <a href="https://marjansirovljevic.github.io/pomodoroTimer/"> www.w3schools.com</a>
-        </p>
-    </footer>
-    
-    <script src="./js/bootstrapExample.js"></script>
-</body>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2010 - Jun 2016</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <p>Intensive formal and informal FrontEnd development trainings. </p>
+            </div>
+            <div class="resume-date text-md-right">
+                <span class="text-primary">Jun 2016 - May 2018</span>
+              </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Retraining Program </h3>
+              <div class="subheading mb-3">FrontEnd Developer</div>
+              <div>Organized by Zaposlenje.org</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">November 2017 - May 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of Belgrade <br />Faculty of Mechanical Engineering</h3>
+              <div class="subheading mb-3">Master of Science</div>
+              <div>University Degree in Production Engineering</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2009</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Radoje Dakic High School</h3>
+              <div class="subheading mb-3">Mechanical Technician</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 1995</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Markup &amp; MarkDown Laguages</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-html5" data-toggle="tooltip" title="HTML5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-css3" data-toggle="tooltip" title="CSS3"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-markdown" data-toggle="tooltip" title="MarkDown"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Programming Languages</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-javascript" data-toggle="tooltip" title="JavaScript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-python" data-toggle="tooltip" title="Python"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">FrameWorks &amp; Libraries &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item" >
+                <i class="devicons devicons-react" data-toggle="tooltip" title="ReactJS"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-jquery" data-toggle="tooltip" title="jQuery"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-sass" data-toggle="tooltip" title="SASS - SCSS"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bootstrap" data-toggle="tooltip" title="BootStrap"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-npm" data-toggle="tooltip" title="npm"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-git" data-toggle="tooltip" title="git"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Mobile-First, Responsive Design
+            </li>
+          </ul>
+
+          <br />
+
+          <div class="subheading mb-3">Other Skills</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Extensive knowledge in CAD/CAM applications
+              <br />
+              (PTC Pro/ENGINEER(certified), SolidWorks, Autodesk Inventor - AutoCAD);
+            </li>
+          </ul>
+
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+
+          <div class="subheading mb-3">WebSites</div>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <span style="color: #bd5d38; padding-right: 20px; width: 300px; display: inline-block">Augmented Reality WebSite</span>
+              <a href="http://www.holloart.com/">
+                HolloArt
+              </a>
+            </li>
+            <br />
+            <li class="list-inline-item">
+              <span style="color: #bd5d38; padding-right: 20px; width: 300px; display: inline-block">Portfolio WebSite</span>
+              <a href="http://www.radmilatonkovic.com/">
+                Radmila Tonkovic
+              </a>
+            </li>
+          </ul>
+          
+          <br />
+          <br />
+          
+          <div class="subheading mb-3">School Projects</div>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <span style="color: #bd5d38; padding-right: 20px; width: 300px; display: inline-block">Pomodoro Timer</span>
+              <a href="https://marjansirovljevic.github.io/pomodoroTimer/">
+                Pomodoro
+              </a>
+            </li>
+            <br />
+            <li class="list-inline-item">
+              <span style="color: #bd5d38; padding-right: 20px; width: 300px; display: inline-block">New York Times Articles Explorer</span>
+              <a href="https://marjansirovljevic.github.io/nyt-explorer/">
+                NYT Explorer
+              </a>
+            </li>
+            <br />
+            <li class="list-inline-item">
+              <span style="color: #bd5d38; padding-right: 20px; width: 300px; display: inline-block">Tasks menagement Application</span>
+              <a href="https://marjansirovljevic.github.io/demo/#/">
+                SMS ToDo 
+              </a>
+            </li>
+            <br />
+          </ul>
+          <br />
+          <br />
+
+          <div class="subheading mb-3">FreeForm Projects</div>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <span style="color: #bd5d38; padding-right: 20px; width: 300px; display: inline-block">Candidates Menagement Table</span>
+              <a href="http://www.holloart.com/ex/temp/candidates.html">
+                Job Candidates Table 
+              </a>
+            </li>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+
+          <p>I enjoy most of my time being outdoors.</p>
+          <p>When forced indoors, I like exploring the latest technology breakthrough (mostly computer science and engineering).</p>
+          <p>I like many sports, especially team sports like basketball and soccer, watching movies, listening music and playing chess and biliards.</p>
+          <p>Spending time with friends and getting to know new people and cultures is something I enjoy most.</p>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
 </html>
